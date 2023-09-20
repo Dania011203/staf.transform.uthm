@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport fit=cover"> <!-- responsive page-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js">
+    
+        <style>  
+            @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+            body {
+                font-family: poppins, sans-serif;  
+                margin: 0px;
+                text-align: center;
+            }
+            #main-nav {
+                background-color: #1e1e1e;
+                padding: 10px;
+                text-align: center;
+                width: 100%;
+                font-size: 20px;
+                font-family: Garamond;
+                position: relative;
+                box-sizing: border-box;
+                height: 50px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0px 10px;
+                padding: 5px;
+            }
+            #main-nav.sticky {
+                position: fixed;
+                top: 0;
+            }
+            .navbarOffsetMargin {
+                padding-top: 45px;
+            }
+            nav a.active {
+                color: #1e1e1e;
+                background: white;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            section {
+                min-height: 100vh;
+            }
+            section#header {
+                
+                backdrop-filter: 0.1px;
+                background-color: #faeee7;
+                color: #270942;
+                min-height: 0px;
+            }
+            section#tim-vine {
+                background-image: url(img/background1.jpg);
+                background-size:auto;
+            }
+            section#bill-hicks {
+                background-image: url(img/background2.jpg);
+                background-size:auto;
+            }
+            section#stewart-francis {
+                background-image: url(img/italyy.jpg);
+                background-size:auto;
+            }
+            article {
+                width: 90%;
+                max-width: 600px;
+                padding: 20px;
+                margin: 0px auto;
+            }
+            h2 {
+                text-align: center;
+                padding: 40px 0px 0px 0px;
+                font-size: 3em;
+            }
+            p {
+                font-size: 1.5em;
+                text-align: center;
+            }
+            @media
+            (prefers-reduced-motion: no-preference) {
+            html {
+                scroll-behavior: smooth;
+            }
+            }
+            @media screen and (max-width: 800px) {
+            body {
+                font-size: 14px;
+            }
+            }
+            @media screen and (max-width: 600px) {
+            body {
+                font-size: 11px;
+            }
+            }
+            p{
+                opacity: 0px;
+                text-align: justify;
+                font-weight: bold;
+            }
+            h2{
+                color: #33272a;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            img{
+                border-radius: 10px;
+                width: 50%;
+            }
+            .block {
+                display: block;
+                width: 50%;
+                border: none;
+                background-color: transparent;
+                color: pink;
+                padding: 14px 28px;
+                font-size: 16px;
+                cursor: pointer;
+                text-align: center;
+                align-self:flex-end;
+            }
+            gambar{
+                width: 460;
+                height:345;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section id="header" style="color: #faeee7 ;">
+            <article>
+                <h2 style="text-align: center; font-size: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> ##</h2> 
+            </article>
+            <nav id="main-nav">
+                <a href="#header" class="active"> MENU</a>
+                <a href="#tim-vine"> PENGARAH </a>
+                <a href="#bill-hicks"> TIMBALAN PENGARAH </a>
+                <a href="#stewart-francis">FELO PENYELIDIK</a>
+                <a href="#stewart">FELO PENYELIDIK BERSEKUTU</a>
+            </nav>
+        </section>
+        <section id="tim-vine">
+            <article>
+              <h2>###</h2>
+              <img src="gambar/DR.ZAHRUL.jpg">
+                <br>
+                    <a href="#">
+                        <button class="block"><b> <img src="###" > </b></button>
+                    </a>
+            </article>
+        </section>
+        <section id="bill-hicks">
+            <article>
+              <h2>###</h2> 
+              <img src="gambar/DR.FAUZIAH.jpg">
+                <p>
+
+                </p>
+                
+                <br>
+                <a href="#">
+                    <button class="block"><b>### </b></button>
+                </a>
+            </article>
+        </section>
+        <section id="stewart-francis">
+            <article>
+              <h2>### </h2>
+               <img src="gambar/DR.NORIZAN.png">
+                <p> </p>
+               <br>
+              <a href="#">
+                <button class="block"><b>###</b></button>
+              </a>
+            </article>
+            <br>
+            <article>
+              <h2>### </h2>
+               <img src="gambar/DR.SHAHIDAH.jpg">
+                <p> </p>
+               <br>
+              <a href="">
+                <button class="block"><b>###</b></button>
+              </a>
+            </article>
+            <br>
+            <article>
+              <h2>### </h2>
+               <img src="gambar/DR.MIMI.png">
+                <p> </p>
+               <br>
+              <a href="">
+                <button class="block"><b>###</b></button>
+              </a>
+            </article>
+        </section>
+        <section id="stewart">
+            <article>
+              <h2>1 </h2>
+               <img src="#">
+                <p> </p>
+               <br>
+              <a href="#">
+                <button class="block"><b>###</b></button>
+              </a>
+            </article>
+            <br>
+            <article>
+              <h2> 2 </h2>
+               <img src="#">
+                <p> </p>
+               <br>
+              <a href="#">
+                <button class="block"><b>###</b></button>
+              </a>
+            </article>
+            <br>
+            <article>
+              <h2> 3 </h2>
+               <img src="#">
+                <p> </p>
+               <br>
+              <a href="#">
+                <button class="block"><b>###</b></button>
+              </a>
+            </article>
+            <article>
+                <h2> 4 </h2>
+                 <img src="#">
+                  <p> </p>
+                 <br>
+                <a href="#">
+                  <button class="block"><b>###</b></button>
+                </a>
+              </article>
+              <br>
+              <article>
+                <h2> 5 </h2>
+                 <img src="#">
+                  <p> </p>
+                 <br>
+                <a href="#">
+                  <button class="block"><b>###</b></button>
+                </a>
+              </article>
+              <br>
+              <article>
+                <h2> 6 </h2>
+                 <img src="#">
+                  <p> </p>
+                 <br>
+                <a href="#">
+                  <button class="block"><b>###</b></button>
+                </a>
+              </article>
+        </section>
+
+    </body>
+        <script>
+            let timVine = document.getElementById("tim-vine");
+            let navbar = document.getElementById("main-nav");
+            let navPos = navbar.getBoundingClientRect().top;
+            let navbarLinks = document.querySelectorAll("nav a");
+                window.addEventListener("scroll", e => {
+                    let scrollPos = window.scrollY;
+                if (scrollPos > navPos) {
+                    navbar.classList.add('sticky');
+                    header.classList.add('navbarOffsetMargin');}
+                else {
+                    navbar.classList.remove('sticky');
+                    header.classList.remove('navbarOffsetMargin');}
+
+                    navbarLinks.forEach(link => {
+                    let section = document.querySelector(link.hash);
+
+                if (scrollPos + 150 > section.offsetTop && scrollPos + 150 < section.offsetTop + section.offsetHeight ) {
+                    link.classList.add("active");}
+                else {
+                    link.classList.remove("active");}
+                });
+            });
+        </script>
+</html>
+ 
